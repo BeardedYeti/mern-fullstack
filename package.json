@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore dist/",
     "dev-start": "webpack-dev-server",
-    "dev": "webpack -wd"
+    "dev-build": "webpack -wd"
   },
   "author": "Colin Smith",
   "license": "MIT",
