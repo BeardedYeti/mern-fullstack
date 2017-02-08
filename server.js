@@ -1,11 +1,11 @@
-import http from 'http';
+import config from './config';
+import express from 'express';
+const server = express();
 
-const server = http.createServer((req, res) => {
-	res.write('Hello HTTP\n');
-	setTimeout(() => {
-		res.write('I can stream\n');
-		res.end();
-	}, 3000);
+server.get('/', (req, res) => {
+	res.send('Hello World');
 });
 
-server.listen(8080);
+server.listen(config.port, () => {
+	console.info('Magic is on port ', config.port);
+});
