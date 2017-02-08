@@ -7,7 +7,7 @@ module.exports = {
 		filename: "bundle.js",
 		publicPath: "assets"
 	},
-	moduel: {
+	module: {
 		loaders: [
 			{
 				test: /\.(js|jsx)$/,
