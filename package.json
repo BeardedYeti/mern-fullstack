@@ -11,6 +11,7 @@
   "author": "Colin Smith",
   "license": "MIT",
   "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
     "bootstrap": "^3.3.7",
     "ejs": "^2.5.5",
     "express": "^4.14.1",
@@ -32,7 +33,7 @@
     "json-loader": "^0.5.4",
     "node-sass": "^4.5.0",
     "nodemon": "^1.11.0",
-    "sass-loader": "^5.0.0",
+    "sass-loader": "^5.0.1",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
