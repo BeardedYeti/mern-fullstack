@@ -5,6 +5,14 @@ import Header from './Header';
 
 class App extends React.Component {
 	state = { pageHeader: 'Naming Contests' };
+	componentDidMount() {
+		console.log('Did Mount');
+		debugger;
+	}
+	componentWillUnmount() {
+		console.log('Will Unmount');
+		debugger;
+	}
 	render() {
 		return (
 			<div className="App">
